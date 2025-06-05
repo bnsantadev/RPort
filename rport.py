@@ -119,5 +119,5 @@ if __name__ == "__main__":
             type = socket.getservbyport(ports)
         except OSError:
             type = "Unknown"
-        print(f"[ + ] {ports}/{type}")
+        print(f"[+] {ports}/{type}")
     print(f"\n[!] Tarama bitiş saati : {datetime.now()}")
