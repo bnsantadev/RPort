@@ -106,6 +106,7 @@ if __name__ == "__main__":
         print("[ ! ] Geçersiz argüman miktarı")
         sys.exit()
 
+    print("[!] https://github.com/bnsantadev/RPort")
     print(f"[!] Hedef taranıyor : {target}")
     print(f"[!] Tarama başlangıç saati : {datetime.now()}\n")
 
