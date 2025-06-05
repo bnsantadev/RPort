@@ -98,7 +98,10 @@ def scanner(port):
     return None
 
 if __name__ == "__main__":
-    os.system("cls")
+    if sys.platform == "linux" or sys.platform == "darwin":
+        os.system("clear")
+    else:
+        os.system("cls")
     Banner()
     if len(sys.argv) == 2:
         target = socket.gethostbyname(sys.argv[1])
