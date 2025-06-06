@@ -4,4 +4,4 @@ Bu yazılımı para ile satmak yasaktır. Eğer bu yazılımı para ile aldıysa
 
 Kullanım:
 
-"rport.py xxx.xxx.xxx.xxx" ile xxx.xxx.xxx.xxx yerine yazdığınız IP adresinin portlarını tarar.
+"python rport.py xxx.xxx.xxx.xxx" ile xxx.xxx.xxx.xxx yerine yazdığınız IP adresinin portlarını tarar.
